@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #282c34;
+    color: #ffffff;
+    text-align: center;
+}
+
+header {
+    background: #f39c12;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.bracket {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+.region, .final-four, .championship {
+    border: 2px solid white;
+    padding: 20px;
+    border-radius: 10px;
+    background: #34495e;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.team {
+    background: #e74c3c;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.team-top {
+    border-bottom: 2px solid white;
+}
+
+.team-bottom {
+    border-top: 2px solid white;
+}
+
+.winner {
+    background: #2ecc71;
+    color: white;
+}

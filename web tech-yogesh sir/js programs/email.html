@@ -1,0 +1,22 @@
+<html>
+    <head>
+    <title>Email ID verification</title>
+    </head>
+    <body>
+    <input type='text' id='txtEmail'/>
+    <input type='submit' name='submit' onclick='checkEmail();'/>
+    <script>
+    function checkEmail() {
+    var email = document.getElementById('txtEmail');
+    var filter = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/;
+    if (!filter.test(email.value)) {
+    alert('Please provide a valid email address');
+    email.focus;
+    return false;
+    }
+    else
+    alert('Congratulation!!');
+    }
+    </script>
+    </body>
+</html>
